@@ -1,18 +1,19 @@
 {
-    "schema_version": "v1",
-    "name_for_human": "Hello World",
-    "name_for_model": "hello",
-    "description_for_human": "Plugin for saying hello to our end-users",
-    "description_for_model": "Plugin for saying hello to our end-users",
-    "auth": {
-      "type": "none"
-    },
-    "api": {
-      "type": "openapi",
-      "url": "http://localhost:5003/openapi.yaml"
-    },
-    "logo_url": "http://localhost:5003/logo.png",
-    "contact_email": "legal@example.com",
-    "legal_info_url": "http://example.com/legal"
-  }
-  
+  "schema_version": "v1",
+  "name_for_human": "Hello World",
+  "name_for_model": "hello",
+  "description_for_human": "Plugin for saying Hello to our end-users.",
+  "description_for_model": "Plugin for saying Hello to our end-users.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "http://localhost:5003/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "http://localhost:5003/logo.png",
+  "contact_email": "legal@example.com",
+  "legal_info_url": "http://example.com/legal"
+}
+
